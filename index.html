@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>myWhatsApp</title>
+
+
+    <!-- Add style files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Latest compiled and minified CSS for bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Anime.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- AOS plugin -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/6ecaf7563a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="loading">
+    </div>
+    <!-- Navbar -->
+    <div class="thenavbar">
+
+        <!-- title  -->
+        <h1 class="thenavbar-title">WhatsApp <img class="logo" src="images/icons/whatsapplogo.png"></img>
+        </h1>
+        <!-- toggle button -->
+
+        <!-- menus -->
+        <ul class="menus-container-large hidden text-left">
+
+            <li class="nav-item">
+                <a href="#home"> <i class="fas fa-home "></i> Home </a>
+            </li>
+            <li>
+                <a href="#features"> <i class="fas fa-star  "></i> Features </a>
+            </li>
+            <li>
+                <a href="#download"> <i class="fas fa-arrow-circle-down  "></i> Download </a>
+            </li>
+            <li>
+                <a href="#about"> <i class="fas fa-pencil-ruler "></i> About </a>
+            </li>
+
+        </ul>
+
+        <!-- Navbar menus container on mobile and tablet devices -->
+        <ul class="navbar-nav menus-container  text-left" id="navbarMenus">
+
+            <li class="nav-item">
+                <a href="#home"> <i class="fas fa-home mr-3"></i> Home </a>
+            </li>
+            <li class="nav-item">
+                <a href="#features"> <i class="fas fa-star   mr-3"></i> Features </a>
+            </li>
+            <li class="nav-item">
+                <a href="#download"> <i class="fas fa-arrow-circle-down  mr-3"></i> Download </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about"> <i class="fas fa-pencil-ruler mr-3"></i> About </a>
+            </li>
+
+        </ul>
+        <!-- add the button toggler -->
+        <i class="fas fa-align-justify title-font-icon menu-toggler" data-toggle="collapse" data-target="#navbarMenus"></i>
+    </div>
+
+
+    <!-- Cover -->
+    <div class="thecover " id="home">
+
+        <!-- cover paragraph -->
+        <h1 class="cover-paragraph-title text-center" data-aos="fade-down">WhatsApp <img class="cover-paragraph-logo" src="images/icons/whatsapplogo.png"></img>
+        </h1>
+
+        <p class="text-center lead cover-paragraph" data-aos="fade-right"> Landing page for WhatsApp Messanger main features
+        </p>
+
+        <!-- 
+          <p class=" text-center cover-paragraph-question" data-aos="fade-right">Are you Intrested in this design?</p>
+        <div class="align-items-center" data-aos="fade-left">
+            <input class=" cover-email" type="email" required="required" name="" value="" placeholder="leave me a message" id="contactEmail">
+
+        </div> -->
+
+    </div>
+
+
+    <!-- Main Contents -->
+    <div class="thecontainer">
+
+        <!-- Warper -->
+        <div class="warper">
+
+            <!-- Content Intro -->
+            <div class="content-intro " id="features">
+
+                <h1 class="section-title text-center" data-aos="fade-down" data-aos-duration="800"> <i class="fas fa-star"></i> Main Features</h1>
+                <p class="section-description text-center" data-aos="fade-up" data-aos-duration="800">
+
+                    This is a simple describtion for each main feature in WhatsApp Messanger
+
+                </p>
+
+
+                <!-- features grid -->
+                <div class="grid-container" id="featuresShortcutContainer">
+
+                    <a href="#messaging" id="messagingCut" data-aos="fade-left" data-aos-duration="500">
+                        <div class="feature-container shadow-sm text-center ">
+                            <h3 class="feature-container-title"> Messaging </h3>
+                            <img class="feature-container-icon" src="images/icons/messaging.svg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="#voice" id="voiceCut" data-aos="fade-left" data-aos-duration="800">
+
+                        <div class="feature-container shadow text-center ">
+                            <h3 class="feature-container-title"> Voice Calls</h3>
+                            <img class="feature-container-icon" src="images/icons/mic.svg" alt="">
+
+                        </div>
+                    </a>
+
+
+                    <a href="#video" id="videoCut" data-aos="fade-left" data-aos-duration="1100">
+
+                        <div class="feature-container shadow text-center ">
+                            <h3 class="feature-container-title">Video Calls</h3>
+                            <img class="feature-container-icon" src="images/icons/video.svg" alt="">
+
+                        </div>
+
+                    </a>
+
+                    <a href="#share" id="shareCut" data-aos="fade-left" data-aos-duration="1400">
+
+                        <div class="feature-container shadow text-center ">
+                            <h3 class="feature-container-title">Documents</h3>
+                            <img class="feature-container-icon" src="images/icons/document.svg" alt="">
+
+                        </div>
+                    </a>
+
+                    <a href="#location" id="locationCut" data-aos="fade-left" data-aos-duration="1700">
+
+                        <div class="feature-container shadow text-center ">
+                            <h3 class="feature-container-title">Location</h3>
+                            <img class="feature-container-icon" src="images/icons/location.svg" alt="">
+
+                        </div>
+                    </a>
+
+                    <a href="#security" id="securityCut" data-aos="fade-left" data-aos-duration="2000">
+
+                        <div class="feature-container shadow text-center ">
+                            <h3 class="feature-container-title">Security</h3>
+                            <img class="feature-container-icon" src="images/icons/security.svg" alt="">
+
+                        </div>
+                    </a>
+
+
+
+                </div>
+            </div>
+
+            <div class="large-green-seperator">
+
+            </div>
+
+            <!-- wraper end -->
+        </div>
+
+
+        <!-- Content Sections -->
+
+        <!-- messaging -->
+
+
+        <div class="all-features-container">
+
+            <div class="green-seperator">
+
+            </div>
+
+
+            <div class="feature-section-darker feature-section-left " data-aos="fade-right" id="messaging">
+
+                <h1 class="feature-section-title text-center"><i class="fas fa-comment-alt"></i> Messaging</h1>
+                <p class="feature-section-description text-center">
+
+                    Message your friends and family for free*.
+
+                </p>
+
+                <img class="feature-section-image" src="images/whats-chat.jpeg" alt="">
+
+                <p class="feature-section-description text-center">
+                    WhatsApp uses your phone's Internet connection to send messages so you can avoid SMS fees.
+                </p>
+
+
+
+
+
+            </div>
+
+
+            <!---------- Seperator ----------->
+
+            <div class="green-seperator-reverse">
+
+            </div>
+
+
+            <!-- speak freely -->
+            <div class="feature-section feature-section-right" data-aos="fade-left" id="voice">
+
+                <h1 class="feature-section-title text-center"> <i class="fas fa-microphone"></i> Speak Freely</h1>
+                <p class="feature-section-description text-center">
+
+                    Call anyone easily through whatsApp
+
+                </p>
+
+                <img class="feature-section-image" src="images/speak.png" alt="">
+
+                <p class="feature-section-description text-center">
+                    You can talk to your friends and family for free*,. Even if they're in another country.
+
+
+                </p>
+
+
+
+
+            </div>
+
+            <div class="green-seperator">
+
+            </div>
+
+            <!-- Video -->
+            <div class="feature-section-darker   feature-section-left" data-aos="fade-right" id="video">
+
+                <h1 class="feature-section-title text-center"> <i class="fas fa-video"></i> Video Calls</h1>
+                <p class="feature-section-description text-center">
+
+                    Face-to-face conversation for when voice or text just isn't enough
+
+                </p>
+
+                <img class="feature-section-image-wide" src="images/video.jpg" alt="">
+
+                <p class="feature-section-description text-center">
+
+                    WhatsApp uses your phone's Internet connection, so you don't have to worry about expensive calling charges.
+
+
+
+                </p>
+
+            </div>
+
+            <!---------- Seperator ----------->
+
+            <div class="green-seperator-reverse">
+
+            </div>
+
+            <!-- share moment -->
+            <div class="feature-section feature-section-right  " data-aos="fade-left" id="share">
+
+                <h1 class="feature-section-title text-center"> <i class="fas fa-paperclip mr-3"></i>Share Moments that Matter
+                </h1>
+                <p class="feature-section-description text-center">
+
+                    Send audio files, contact number, photos and videos on WhatsApp instantly.
+                </p>
+
+                <img class="feature-section-image" src="images/document.png" alt="">
+
+                <p class="feature-section-description text-center">
+                    You can even capture the moments that matter to you most with a built-in camera.
+
+                </p>
+
+            </div>
+
+            <!---------- Seperator ----------->
+
+            <div class="green-seperator">
+
+            </div>
+
+            <!-- location -->
+            <div class="feature-section-darker feature-section-left" data-aos="fade-right" id="location">
+
+                <h1 class="feature-section-title text-center"> <i class="fas fa-map-marker-alt"></i> Location</h1>
+                <p class="feature-section-description text-center">
+
+                    Send your location easily.
+
+                </p>
+
+                <img class="feature-section-image" src="images/location.jpg" alt="">
+
+                <p class="feature-section-description text-center">
+                    Like many attachments available in WhatsApp you can share your location with couple of clicks for free*.
+                </p>
+
+            </div>
+
+            <!---------- Seperator ----------->
+
+            <div class="green-seperator-reverse">
+
+            </div>
+
+            <!-- security -->
+            <div class="feature-section feature-section-right" data-aos="fade-left" id="security">
+
+                <h1 class="feature-section-title text-center"><i class="fas fa-lock"></i> Security</h1>
+                <p class="feature-section-description text-center">
+
+                    end-to-end encryption
+
+                </p>
+
+                <img class="feature-section-image-wide" src="images/security.jpeg" alt="">
+
+                <p class="feature-section-description text-center">
+                    Your messages and calls are secured so nobody can lestin to them in between, not even WhatsApp.
+                </p>
+
+            </div>
+
+            <!---------- Seperator ----------->
+
+            <div class="green-seperator-download">
+
+            </div>
+        </div>
+
+        <!---------- Seperator on mobile and tablets ----------->
+
+        <div class="large-green-seperator-reverse">
+
+        </div>
+
+
+
+        <!-- Download Section -->
+        <div class="download-section  shadow-lg text-center" id="download">
+            <div class="warper">
+
+                <h1 class="section-title  download-title " data-aos="fade-down"> <i class="fas fa-arrow-circle-down"></i> Download
+                </h1>
+                <p class="section-description download-describtion" data-aos="fade-down" data-aos-duration="700">
+                    WhatsApp Messanger is available for many different devices, choose your device type</p>
+
+                <p class=" section-description download-note" data-aos="fade-down" data-aos-duration="700"> <strong>
+            all download links are from WhatsApp <a href="https://www.whatsapp.com/download" target="_blank"> official
+              page </a> </strong> </p>
+
+
+                <div class="download-types-container" data-aos="fade-up" data-aos-duration="100">
+
+                    <!-- Phones -->
+                    <div class="download-phones-container" data-aos="fade-right" data-aos-duration="900">
+
+                        <h1 class="feature-section-title  download-phones-title mt-5 mb-4"> <i class="fas fa-mobile-alt"></i> Phone
+                        </h1>
+                        <div class="grid-container">
+
+                            <!-- Android Phone -->
+
+                            <a href="https://play.google.com/store/apps/details?id=com.whatsapp" target="_blank">
+
+                                <div class=" download-device-container shadow">
+                                    <img class=" download-device-icon" src="images/icons/android.svg" alt="">
+                                    <h3 class=" download-device-title">Android </h3>
+
+                                </div>
+
+                            </a>
+
+
+                            <!-- iOS Phone -->
+
+                            <a href="https://apps.apple.com/us/app/whatsapp-messenger/id310633997" target="_blank">
+
+                                <div class=" download-device-container shadow">
+                                    <img class=" download-device-icon" src="images/icons/apple.svg" alt="">
+                                    <h3 class=" download-device-title">iPhone </h3>
+
+                                </div>
+
+                            </a>
+
+                            <!-- Windows Phone -->
+
+                            <a href="https://www.microsoft.com/en-eg/p/whatsapp/9wzdncrdfwbs?rtc=1" target="_blank">
+                                <div class=" download-device-container shadow">
+                                    <img class=" download-device-icon" src="images/icons/windows.svg" alt="">
+                                    <h3 class=" download-device-title">Win. Phone </h3>
+
+                                </div>
+
+                            </a>
+
+
+                        </div>
+                    </div>
+
+                    <!-- Desktop -->
+                    <div class="download-desktops-container" data-aos="fade-left" data-aos-duration="900">
+
+
+                        <h1 class="feature-section-title download-desktop-title mt-5 mb-4"> <i class="fas fa-desktop"></i> Desktop
+                        </h1>
+
+                        <!-- Windows 64 -->
+                        <div class="grid-container">
+
+                            <a href="https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe">
+                                <div class=" download-device-container shadow">
+                                    <img class=" download-device-icon" src="images/icons/windows.svg" alt="">
+                                    <h3 class=" download-device-title">Windows 64 </h3>
+
+                                </div>
+                            </a>
+
+                            <!-- Windows 32 -->
+                            <a href="https://web.whatsapp.com/desktop/windows/release/ia32/WhatsAppSetup.exe">
+                                <div class=" download-device-container shadow">
+                                    <img class=" download-device-icon" src="images/icons/windows.svg" alt="">
+                                    <h3 class=" download-device-title">Windows 32 </h3>
+
+                                </div>
+                            </a>
+
+                            <!-- Mac -->
+
+                            <a href="https://web.whatsapp.com/desktop/mac/files/WhatsApp.dmg">
+                                <div class=" download-device-container shadow">
+                                    <img class=" download-device-icon" src="images/icons/mac.svg" alt="">
+                                    <h3 class=" download-device-title"> Mac </h3>
+
+                                </div>
+                            </a>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="green-seperator-reverse">
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="thefooter " id="about">
+
+            <div class="footer-container">
+                <h1 class="text-center footer-column-title-main pt-5" data-aos="fade-down"> <i class="fab fa-whatsapp"></i> WhatsApp
+                </h1>
+                <p class="footer-paragraph text-center footer-title-describtion" data-aos="fade-down"> WhatsApp is the most popular chatting application owned by Facebook</p>
+                <div class="footer-grid-container">
+
+                    <!-- Footer left column .. Page sections -->
+
+                    <div class="footer-column footer-column-left" data-aos="fade-right">
+                        <h2 class="text-center footer-column-title"> <i class="fas fa-th-list mr-2"></i> Sections</h2>
+                        <div class="footer-links-container">
+
+                            <a href="#home">
+                                <h4 class="footer-link"> <i class="fas fa-home mr-2"></i> Home </h4>
+                            </a>
+                            <a href="#features">
+                                <h4 class="footer-link"><i class="fas fa-star mr-2"></i> Features </h4>
+                            </a>
+                            <a href="#download">
+                                <h4 class="footer-link"><i class="fas fa-arrow-circle-down mr-2"></i> Download </h4>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Footer center column .. Page About -->
+
+                    <div class="footer-column footer-column-center" data-aos="fade-up">
+
+                        <h2 class="text-center footer-column-title"><i class="fas fa-pencil-ruler mr-2"></i> About</h2>
+
+                        <p class="footer-paragraph">
+                            UnOfficial Landing page for WhatsApp Messanger I designed to show its great features
+
+
+                        </p>
+
+                    </div>
+
+                    <!-- Footer right column .. Contact links -->
+
+                    <div class="footer-column footer-column-right" data-aos="fade-left">
+
+                        <div class="contact-underline">
+
+                        </div>
+                        <h2 class="text-center footer-column-title download-contact-title"><i class="fas fa-hands-helping mr-2"></i> Contact
+                        </h2>
+
+                        <div class="footer-links-container">
+                            <!-- Facebook link -->
+
+                            <a href="https://www.facebook.com/M.SalahTheDeveloper" target="_blank">
+                                <h4 class="footer-link"><i class="fab fa-facebook-square mr-2"></i> M.SalahTheDeveloper </h4>
+                            </a>
+
+                            <!-- Gmail link -->
+
+                            <a href="mailTo: sala7thedeveloper@gmail.com">
+                                <h4 class="footer-link"><i class="fas fa-envelope-open-text mr-2"></i> sala7thedeveloper </h4>
+                            </a>
+
+                            <!-- WhatsApp number -->
+
+                            <a href="https://wa.me/201286727987" target="_blank">
+                                <h4 class="footer-link"><i class="fab fa-whatsapp mr-2"></i> +20 01286727987 </h4>
+                            </a>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <!-- Footer Copyright -->
+                <div class="footer-copyright text-center">
+                    <p class="footer-copyright-text"> <i class="far fa-copyright"></i> 2019 - UnOfficial WhatsApp landing page</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Add libraries -->
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <!-- Popper js  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap  -->
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+        <!-- main scripts files -->
+        <script src="js/scripts.js">
+        </script>
+
+        <!-- AOS plugin   -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+
+    </div>
+
+</body>
+
+</html>
